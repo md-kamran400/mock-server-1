@@ -1,64 +1,324 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Gertrudis Tatterton",
-        "age": 18,
-        "email": "gtatterton0@ehow.com"
-      },
-      {
-        "id": 2,
-        "name": "Gail Newbatt",
-        "age": 53,
-        "email": "gnewbatt1@un.org"
-      },
-      {
-        "id": 3,
-        "name": "Walliw Wilstead",
-        "age": 49,
-        "email": "wwilstead2@tripadvisor.com"
-      },
-      {
-        "id": 4,
-        "name": "Abran Proback",
-        "age": 29,
-        "email": "aproback3@theglobeandmail.com"
-      },
-      {
-        "id": 5,
-        "name": "Roda Chappelow",
-        "age": 31,
-        "email": "rchappelow4@oaic.gov.au"
-      },
-      {
-        "id": 6,
-        "name": "Karney Wylie",
-        "age": 22,
-        "email": "kwylie5@miitbeian.gov.cn"
-      },
-      {
-        "id": 7,
-        "name": "Cammi Pimbley",
-        "age": 63,
-        "email": "cpimbley6@nyu.edu"
-      },
-      {
-        "id": 8,
-        "name": "Gavra Manning",
-        "age": 43,
-        "email": "gmanning7@lycos.com"
-      },
-      {
-        "id": 9,
-        "name": "Zachary Seward",
-        "age": 45,
-        "email": "zseward8@oracle.com"
-      },
-      {
-        "id": 10,
-        "name": "Chucho Norssister",
-        "age": 20,
-        "email": "cnorssister9@mayoclinic.com"
-      }
-    ]
-  }
+  "data": [
+    {
+      "id": 2,
+      "brand": "hello wrold ",
+      "title": "Regukar Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 699
+    },
+    {
+      "id": 3,
+      "brand": "van-heusen",
+      "title": "Regukar Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1400
+    },
+    {
+      "id": 4,
+      "brand": "van-heusen",
+      "title": "Cotton Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1500
+    },
+    {
+      "id": 5,
+      "brand": "van-heusen",
+      "title": "Cotton Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1299
+    },
+    {
+      "id": 6,
+      "brand": "allen-solly",
+      "title": "Checked Regular Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 999
+    },
+    {
+      "id": 7,
+      "brand": "allen-solly",
+      "title": "Checked Regular Fit Printed Shirt",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1999
+    },
+    {
+      "id": 8,
+      "brand": "roadster",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 599
+    },
+    {
+      "id": 9,
+      "brand": "twills",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 799
+    },
+    {
+      "id": 10,
+      "brand": "twills",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1099
+    },
+    {
+      "id": 11,
+      "brand": "twills",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 1450
+    },
+    {
+      "id": 12,
+      "brand": "twills",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "men",
+      "price": 2700
+    },
+    {
+      "id": 13,
+      "brand": "blackberrys",
+      "title": "Men Linen Regular Fit",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 1650
+    },
+    {
+      "id": 14,
+      "brand": "blackberrys",
+      "title": "A line kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 1750
+    },
+    {
+      "id": 15,
+      "brand": "allen-solly",
+      "title": "A line kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 1350
+    },
+    {
+      "id": 16,
+      "brand": "van-heusen",
+      "title": "Anarkali kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 1200
+    },
+    {
+      "id": 17,
+      "brand": "van-heusen",
+      "title": "Anarkali kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 1250
+    },
+    {
+      "id": 18,
+      "brand": "twills",
+      "title": "Anarkali kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 2699
+    },
+    {
+      "id": 19,
+      "brand": "van-heusen",
+      "title": "Max slit kurta",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 2135
+    },
+    {
+      "id": 20,
+      "brand": "van-huesen",
+      "title": "Ethnic Embroidary Kurti",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 2499
+    },
+    {
+      "id": 21,
+      "brand": "blackberrys",
+      "title": "Printed Straight Kurti",
+      "image": "https://picsum.photos/200",
+      "category": "women",
+      "price": 2599
+    },
+    {
+      "id": 22,
+      "brand": "blackberrys",
+      "title": "Printed Straight Kurti",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 2399
+    },
+    {
+      "id": 23,
+      "brand": "twills",
+      "title": "Girls Print Flared Dress",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 1799
+    },
+    {
+      "id": 24,
+      "brand": "allen-solly",
+      "title": "Girls Solid Print Flared Dress",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 3599
+    },
+    {
+      "id": 25,
+      "brand": "van-heusen",
+      "title": "Girls Checked Print Flared Dress",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 4599
+    },
+    {
+      "id": 26,
+      "brand": "blackberrys",
+      "title": "Girls Checked Print Flared Dress",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 4599
+    },
+    {
+      "id": 27,
+      "brand": "roadster",
+      "title": "Some Roadster Tshirt",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 3099
+    },
+    {
+      "id": 28,
+      "brand": "twills",
+      "title": "Pack of 3 Boys T-shirts",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 3499
+    },
+    {
+      "id": 29,
+      "brand": "blackberrys",
+      "title": "Boys Color Blocked T-shirt",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 2899
+    },
+    {
+      "id": 30,
+      "brand": "twills",
+      "title": "Pack of 3 Round Necked Shirts",
+      "image": "https://picsum.photos/200",
+      "category": "kids",
+      "price": 2299
+    },
+    {
+      "id": 31,
+      "brand": "blackberrys",
+      "title": "Set of 2 Artificial bunches",
+      "image": "https://picsum.photos/200",
+      "category": "homedecor",
+      "price": 2280
+    },
+    {
+      "id": 32,
+      "brand": "twills",
+      "title": "Artificial Bamboo plants",
+      "image": "https://picsum.photos/200",
+      "category": "homedecor",
+      "price": 1375
+    },
+    {
+      "id": 33,
+      "brand": "allen-solly",
+      "title": "Artificial flowers with pot",
+      "image": "https://picsum.photos/200",
+      "category": "homedecor",
+      "price": 1470
+    },
+    {
+      "id": 34,
+      "brand": "blackberrys",
+      "title": "Set of 3 wall paintings",
+      "image": "https://picsum.photos/200",
+      "category": "homedecor",
+      "price": 6050
+    },
+    {
+      "id": 35,
+      "brand": "twills",
+      "title": "Set of photo frames",
+      "image": "https://picsum.photos/200",
+      "category": "homedecor",
+      "price": 3499
+    },
+    {
+      "id": 36,
+      "brand": "allen-solly",
+      "title": "Bird nest on tree",
+      "image": "https://picsum.photos/200",
+      "price": 2050,
+      "category": "homedecor"
+    },
+    {
+      "id": 37,
+      "brand": "blackberrys",
+      "title": "Handcrafted Leather crafted",
+      "image": "https://picsum.photos/200",
+      "price": 1950,
+      "category": "homedecor"
+    },
+    {
+      "id": 38,
+      "brand": "twills",
+      "title": "Handcrafted Leather crafted",
+      "image": "https://picsum.photos/200",
+      "price": 1850,
+      "category": "homedecor"
+    },
+    {
+      "id": 39,
+      "brand": "allen-solly",
+      "title": "Hour glass",
+      "image": "https://picsum.photos/200",
+      "price": 1750,
+      "category": "homedecor"
+    },
+    {
+      "id": 40,
+      "brand": "twills",
+      "title": "Set of 3 Owl",
+      "image": "https://picsum.photos/200",
+      "price": 3500,
+      "category": "homedecor"
+    },
+    {
+      "brand": "blackberry",
+      "category": "pats ",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHUAsQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EADwQAAIBAwMBBgQDBQYHAAAAAAECAwAEEQUSITEGEyJBUWEUcYGRIzKhUlOxwdEVQpLh8PEHFhckM4KT/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAhEQACAgICAgMBAAAAAAAAAAAAAQIRAxIhMQRBIjKBE//aAAwDAQACEQMRAD8A8lpyrzXUQmplTFOyLGBacqinYrgoEdwKVOxxTQCTSAcOaf3YIrixmpdjKtJsAZ1weK4iZqRuKkiAosCF4vao2i9qObGKcsWRzRsUmVhQimNR1wmKG7vJqkxkFSIhY8CjLXT3mIwCau4NJEMYaXiollSJsz3wrkflIpvwzA8mtDM9vECFxVZPcRnOBSU2wsEMeBih2Xmp5Jc9KgJ5rRWCOEcU2pVG6myJtp2MjpV2uVQBa+GnFqjFLrWYhwbmpETcajRCTRsSALzQ2IYIwBzTkRc02WQDpUPf4qRFjGseOTT5FjKcHpVUbg5qSOYtxmigpnJl8RwK6gNSgbiMDNExWc8qoyRgI+cOxwD5Eimk26SFKSirYPGOeaJyAtXH/Ltv8C1xHq8MkyxNJ3KwnB2gEruz159OtAXelXUdsLiIxzQ8bjC2Smem4YBFKKcuiprSlL2Vki7yc0+0hQyjeOKK1DSdR0tEbULOaBXGVZwMHPTkUGkuDxTatcC5Rq7BrWGIHCjigdXvxINsfA9qpzcyEdcAVAZjuy1YLF8rY",
+      "price": 785,
+      "title": "hello word my nam eis kamran",
+      "id": 41
+    }
+  ]
+}
