@@ -13,6 +13,13 @@
       "age": 3,
       "place": "Banglore",
       "gender": "Female"
+    },
+    {
+      "id": 3,
+      "name": "tom",
+      "age": 3,
+      "place": "delhi",
+      "gender": "male"
     }
   ]
 }
